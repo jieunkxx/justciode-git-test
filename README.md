@@ -1,22 +1,22 @@
-# :: git command
+# git command
 
-## :: initiate git
+## initiate git
 git init
 
-## ## add a new remote 
+## add a new remote 
 git remote add origin repo_address
 
-## :: stage all modified files
+## stage all modified files
 git add .
 
-## :: commit
+## commit
 git commit -m "commit message"
 
-## :: push
+## push
 git push orgin master
 
-## :: check git status
+## check git status
 git status
 
-## :: create/change branch 
+## create/change branch 
 git checkout -b new_branch_name
